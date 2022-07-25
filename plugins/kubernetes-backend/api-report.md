@@ -35,6 +35,8 @@ export interface ClusterDetails {
   authProvider: string;
   // (undocumented)
   caData?: string | undefined;
+  // (undocumented)
+  customResources?: CustomResourceMatcher[];
   dashboardApp?: string;
   dashboardParameters?: JsonObject;
   dashboardUrl?: string;
