@@ -193,6 +193,8 @@ export interface ClusterDetails {
    * @see dashboardApp
    */
   dashboardParameters?: JsonObject;
+
+  customResources?: CustomResourceMatcher[];
 }
 
 /**
